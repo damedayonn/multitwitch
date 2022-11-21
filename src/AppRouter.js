@@ -7,7 +7,7 @@ import Stream from './Stream.js';
 
 const AppRouter = ({onDark,setOnDark}) => {
     return (
-        <Router basename="/">
+        <Router>
             <Navbar onDark={onDark} setOnDark={setOnDark}/>
             <Routes>
                 <Route exact path='/' element={<Main />}/>
